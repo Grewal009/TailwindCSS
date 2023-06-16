@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import CartOverview from "./components/CartOverview";
 
 const App = () => {
   return (
     <div>
-      <h1 className="m-5 text-4xl font-semibold text-green-600 hover:text-pink-600 ">
-        Hello TailwindCSS
-      </h1>
+      <Header />
+      <Home />
+      <CartOverview />
     </div>
   );
 };
